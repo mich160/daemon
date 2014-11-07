@@ -26,6 +26,6 @@ a:
 -dla małych plików read/write, dla dużych mmap/write
 
 Funcje:
--synchronizacja()
--kopiujplik()
--sprawdzplik() ? (trzeba sprawdzic czy potrzebna)
+-synchronizacja(źródło,docelowy)
+-kopiujplik(źródłowy,docelowy)
+-sprawdzplik(źródłowy,docelowy) ? (trzeba sprawdzic czy potrzebna)
