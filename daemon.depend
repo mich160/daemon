@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1415641409 source:/home/mieho/Pulpit/daemon/daemon/main.c
+	<sys/types.h>
+	<sys/stat.h>
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<errno.h>
+	<unistd.h>
+	<syslog.h>
+	<string.h>
+
