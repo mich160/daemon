@@ -8,8 +8,12 @@
 #include <syslog.h>
 #include <string.h>
 
+//deklaracje funkcji
+int synchronize(char * source, char * target);
+int copyFile(char * source, char * target);
+int checkFile(char * source, char * target);
 
-int main(int argc, int* args[]) {
+int main(int argc, char* args[]) {
 
     pid_t pid, sid;
 
